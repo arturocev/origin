@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class Tienda {
 
-    static AlmAcEn almacen;
+    static Almacen almacen;
     static Scanner entrada = new Scanner(System.in);
     static double total = 0;
     
     public static void main(String[] args) {
-        almacen = new AlmAcEn();
+        almacen = new Almacen();
         almacen.productos.add(new Producto("Leche", 0.8, 3));
         almacen.productos.add(new Producto("Jamón", 8, 1));
         almacen.productos.add(new Producto("Magdalenas", 2.3, 5));
